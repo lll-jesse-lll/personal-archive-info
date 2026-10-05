@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal Archive 的 Google Drive 授權、資料使用、保存與撤回方式。">
+  <title>隱私權政策｜Personal Archive</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header">
+    <a class="brand" href="./index.html" lang="en">Personal Archive</a>
+    <nav aria-label="主要導覽">
+      <a href="./index.html">首頁</a>
+      <a href="./privacy.html" aria-current="page">隱私權政策</a>
+    </nav>
+  </header>
+  <main id="main" class="policy">
+    <p class="eyebrow" lang="en">Privacy</p>
+    <h1>隱私權政策</h1>
+    <p class="updated">更新日期：<time datetime="2026-10-05">2026 年 10 月 5 日</time></p>
+    <p class="lead">本政策說明 Personal Archive 在使用者自行操作個人檔案整理、封存與備份時，如何使用授權及處理資料。</p>
+
+    <section aria-labelledby="access">
+      <h2 id="access">Google 授權與資料範圍</h2>
+      <p>工具透過 Google OAuth 請求 <code>drive.file</code> 權限，存取工具建立的 Google Drive 檔案，或使用者選擇並授權工具存取的檔案，包括檔案內容與完成操作所需的中繼資料，例如名稱、類型、大小及修改時間。此權限並非整個 Google Drive 的全面存取權。</p>
+      <p>這些資料用於使用者指定的整理、封存與備份操作。Google 密碼由 Google 的登入流程處理；工具不要求、接收或保存 Google 密碼。</p>
+    </section>
+
+    <section aria-labelledby="storage">
+      <h2 id="storage">資料與授權憑證保存</h2>
+      <p>依使用者選擇，檔案及相關中繼資料可保存在執行工具的本機，或備份至使用者的 Google Drive。Google Drive 內的資料由 Google 的服務及使用者的帳戶設定管理。</p>
+      <p>檔案處理過程中，執行操作的伺服器可能保留暫存副本；保留與刪除由使用者管理。</p>
+      <p>OAuth 授權憑證保存在執行工具的本機設定中，並限制存取，用於維持使用者授權的連線。</p>
+      <p>保存期限由使用者的保留及刪除選擇決定。使用者可刪除本機資料、授權憑證及 Google Drive 中的副本；若檔案仍在垃圾桶中，需依各儲存服務的方式完成刪除。</p>
+    </section>
+
+    <section aria-labelledby="ai">
+      <h2 id="ai">選用的 AI 協助</h2>
+      <p>若使用者選擇並授權 AI 協助整理，指定的檔案內容或中繼資料可能傳送至使用者選定的 AI 服務。啟用前，使用者應確認處理範圍與該服務的設定及隱私政策。</p>
+      <p>AI 服務的保存、資料使用及刪除方式依其政策與實際設定而定。本政策不承諾該服務不保存資料，或不將資料用於模型訓練。</p>
+    </section>
+
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">使用目的與服務</h2>
+      <p>個人檔案資料用於使用者指定的整理、封存與備份，不用於廣告投放或販售個人資料。Google Drive，以及使用者選用並授權的 AI 服務，會依各自的政策處理傳送給它們的資料。</p>
+      <p>本說明網站由 GitHub Pages 提供託管；網站造訪資料的處理適用 GitHub 的隱私聲明。</p>
+    </section>
+
+    <section aria-labelledby="revoke">
+      <h2 id="revoke">撤回授權與刪除</h2>
+      <p>使用者可前往 <a href="https://myaccount.google.com/connections">Google 帳戶的第三方連線管理</a>移除本工具對應連線的存取授權，並刪除本機保存的授權憑證。</p>
+      <p>撤回授權會移除後續存取權，但不會自動刪除既有的本機檔案、Google Drive 備份或 AI 服務已收到的資料。這些資料需由使用者分別刪除，或依相關服務提供的方式提出刪除請求。</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">聯絡方式</h2>
+      <p>如有工具使用或隱私問題，請透過 <a href="https://github.com/lll-jesse-lll/personal-archive-info/issues">GitHub Issues</a> 聯絡維護者。Issues 內容公開，請勿張貼個人檔案、個人資料或授權憑證。</p>
+    </section>
+
+    <section class="references" aria-labelledby="references">
+      <h2 id="references">相關說明</h2>
+      <ul>
+        <li><a href="https://developers.google.com/workspace/drive/api/guides/api-specific-auth">Google Drive 權限說明</a></li>
+        <li><a href="https://support.google.com/accounts/answer/13533235">Google 帳戶連線與撤回說明</a></li>
+        <li><a href="https://policies.google.com/privacy">Google 隱私權政策</a></li>
+        <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 一般隱私聲明</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <span lang="en">Personal Archive</span>
+    <a href="./index.html">返回首頁</a>
+  </footer>
+</body>
+</html>
